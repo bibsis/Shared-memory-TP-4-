@@ -22,7 +22,7 @@ int main()
 		return -1;
 	}	
 
-	uint64_t pos =  mem->pos  % 4096;
+	uint64_t pos =  mem->pos % 4096;
 	printf("starting at %ld\n", pos);
 	while( true )
 	{
