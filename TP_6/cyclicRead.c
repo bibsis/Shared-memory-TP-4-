@@ -50,7 +50,7 @@ int main()
       break;
     }
     
-    int64_t current_seed = verify((void*)mem->buff[curren].arr);
+    int64_t current_seed = verify((void*)mem->buff[current].arr);
     
     if (current_seed == -1 || (prev_seed + 1 != current_seed && seed_check == true)
     {
