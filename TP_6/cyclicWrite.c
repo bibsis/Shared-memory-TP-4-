@@ -37,7 +37,7 @@ int main()
     uint32_t seed = 0;
     while (1) 
 	{
-      generate((void*)mem->buff[mem->pl].arr, seed);
+      generate((void*)mem->buff[mem->place].arr, seed);
       seed++;
       mem->place++;
    
